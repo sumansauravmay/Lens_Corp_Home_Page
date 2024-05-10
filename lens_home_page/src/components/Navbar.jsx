@@ -1,6 +1,6 @@
 
 import {
-  Box,Text,
+  Box,
   Flex,
   Avatar, 
   Button,
