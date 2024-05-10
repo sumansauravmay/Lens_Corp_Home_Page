@@ -7,11 +7,10 @@ import {
     Stack,
     Text,
     VisuallyHidden,
-    IconButton,
     useColorModeValue,
     Avatar,
   } from '@chakra-ui/react';
-  import { FaInstagram, FaTwitter, FaYoutube, FaFacebook, FaLinkedin, FaDiscord } from 'react-icons/fa';
+  import { FaInstagram, FaFacebook, FaLinkedin, FaDiscord } from 'react-icons/fa';
   import { FaXTwitter } from "react-icons/fa6";
 
   
