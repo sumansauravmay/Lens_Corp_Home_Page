@@ -2,6 +2,7 @@
 // import './App.css';
 import About from './components/About';
 import Blogs from './components/Blogs';
+import Explore from './components/Explore/Explore';
 import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
@@ -19,6 +20,7 @@ function App() {
     <Whylens/>
     <WhyLens2/>
     <Blogs/>
+    <Explore/>
     <br/>
     <br/>
     <Footer/>
