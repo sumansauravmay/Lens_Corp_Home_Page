@@ -43,8 +43,78 @@
    background-size: cover;
 }
 
+.animationImg1{
+  /* animation: 1s fadeIn; */
+  /* animation-fill-mode: forwards; */
+  -webkit-animation: infinite;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 5s;
+  visibility: hidden;
+}
+
+.animationImg2{
+  /* animation: 1s fadeIn; */
+  /* animation-fill-mode: forwards; */
+  -webkit-animation: infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 4s;
+  visibility: hidden;
+}
+
+.animationImg3{
+  /* animation: 1s fadeIn; */
+  /* animation-fill-mode: forwards; */
+  -webkit-animation: infinite;
+  -webkit-animation-name: out;
+  -webkit-animation-duration: 3s;
+  visibility: hidden;
+}
+
+.animationImg4{
+  /* animation: 1s fadeIn; */
+  /* animation-fill-mode: forwards; */
+  -webkit-animation: infinite;
+  -webkit-animation-name: in;
+  -webkit-animation-duration: 2s;
+  visibility: hidden;
+}
 
 
 
 
+@keyframes fadeIn {
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes run {
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes out {
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes in {
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
 
