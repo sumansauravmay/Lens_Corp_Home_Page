@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
+import TotalNumber from './components/TotalNumber';
 import WhyLens2 from './components/WhyLens2';
 import Whylens from './components/whylens';
 
@@ -21,6 +22,7 @@ function App() {
     <WhyLens2/>
     <Blogs/>
     <Explore/>
+    <TotalNumber/>
     <br/>
     <br/>
     <Footer/>
