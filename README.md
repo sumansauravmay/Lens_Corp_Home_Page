@@ -27,6 +27,7 @@
 ## 🚀 Features
 -   whole website is fully Responsive.
 -   Home Page with HTML, CSS, JavaScript, ChakraUI, Tailwind CSS & React.
+-   Single Page Application.
 
 
 ## 🚀 Team Member:-
@@ -134,6 +135,13 @@ Install dependencies for lens_home_page
 ### Netlify Link
 
 [https://663fcc7252065631d4704607--cosmic-rugelach-067d4d.netlify.app/](https://663fcc7252065631d4704607--cosmic-rugelach-067d4d.netlify.app/)
+
+
+## Company's website
+
+[https://lenscorp.ai/](https://lenscorp.ai/)
+
+
 
 ## Show your support
 
