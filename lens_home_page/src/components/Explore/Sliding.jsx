@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Box, Center, Container } from "@chakra-ui/react";
+import { Container } from "@chakra-ui/react";
 
 const data = [
   {

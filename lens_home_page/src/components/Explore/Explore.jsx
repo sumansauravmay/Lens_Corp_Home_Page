@@ -1,7 +1,6 @@
 import React from 'react'
 import Sliding from './Sliding'
-import { Box, Button, Text, Stack, background } from '@chakra-ui/react';
-import { ArrowForwardIcon } from "react-icons/md"
+import { Box, Button, Text, } from '@chakra-ui/react';
 
 const Explore = () => {
   return (

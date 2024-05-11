@@ -3,6 +3,7 @@
 import About from './components/About';
 import Blogs from './components/Blogs';
 import Explore from './components/Explore/Explore';
+import Faq from './components/FAQ/Faq';
 import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
@@ -23,6 +24,7 @@ function App() {
     <Blogs/>
     <Explore/>
     <TotalNumber/>
+    <Faq/>
     <br/>
     <br/>
     <Footer/>
