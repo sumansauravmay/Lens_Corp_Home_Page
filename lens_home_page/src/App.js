@@ -6,7 +6,8 @@ import EndPage from './components/EndPage';
 import Explore from './components/Explore/Explore';
 import Faq from './components/FAQ/Faq';
 import Footer from './components/Footer';
-import Intro from './components/Intro';
+import Intro from './components/Landing/Intro';
+import Landing from './components/Landing/Landing';
 import WorldMap from './components/Map/WorldMap';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
@@ -19,7 +20,8 @@ function App() {
   return (
     <div>
     <Navbar/>
-    <Intro/>
+    {/* <Intro/> */}
+    <Landing/>
     <About/>
     <br/>
     <br/>
