@@ -45,8 +45,9 @@ const TestimonialText = ({ children }) => {
       color={useColorModeValue("#8A8A8A")}
       fontSize={"18px"}
       height={"250px"}
-      width={"280px"}
+      // width={"280px"}
       mt="50px"
+      width={{lg:"280px", md:"250px", sm:"200px", base:"200px"}}
     >
       {children}
     </Text>
@@ -59,7 +60,7 @@ export default function WhyLens2() {
       <Box>
         <Container maxW={"5xl"} py={16} as={Stack} spacing={12}>
           <Stack
-            direction={{ base: "column", md: "row" }}
+            direction={{ base: "column", md: "coloum", lg:"row" }}
             spacing={{ base: 2, md: 4, lg: 2 }}
             justifyContent={"center"}
           >
