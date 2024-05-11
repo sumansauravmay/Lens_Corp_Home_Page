@@ -55,7 +55,7 @@ Here users can know about the Lens Corporation.
 
 ![Services](https://i.postimg.cc/brmgkKfR/services1.jpg)
 
-![Services](https://i.postimg.cc/J7xPfBHB/services2.jpg)
+![Services](https://i.postimg.cc/26Vhg3sn/services3.jpg)
 
 ### Why Choose Lens Page -
 ![Why Choose Lens Page](https://i.postimg.cc/65QYt5Cb/why-choose-lens1.jpg)
