@@ -3,7 +3,6 @@ import {
     Button,
     Center, FormControl, Input,
     Flex,
-    Heading,
     Image,
     Stack,
     Text,
@@ -16,18 +15,14 @@ import {
       <>
         <Center py={6}>
           <Stack
-            // borderWidth="1px"
             borderRadius="lg"
             w={{ sm: "100%", md: "540px", lg: "85%" }}
             h={{ sm: "1000px", md: "800px", lg: "500px" }}
             height={{ sm: "476px", md: "20rem" }}
             direction={{ base: "column", md: "row" }}
-            
-            // boxShadow={"2xl"}
             padding={4}
           >
             <Stack
-            //   flex={1}
               flexDirection="column"
               p={1}
               pt={2}
@@ -35,7 +30,6 @@ import {
               <Text
         mt={10}
         fontSize={{ lg: 32, md: 24, sm: 20, base: 16 }}
-        // ml={{ lg: 0, md: 250, sm: 130, base: 100 }}
       >
         Frequently Asked Questions
       </Text>
@@ -47,7 +41,7 @@ import {
               >
                Send your enquiry now!
               </Text>
-  {/* --------------------------------------------------------------------------------------------------- */}
+
   <Flex
       minH={'10vh'}
       >
@@ -84,7 +78,7 @@ import {
         </Stack>
       </Flex>
     </Flex>
-{/* ---------------------------------------------------------------------------------------------------------- */}
+
             </Stack>
             <Flex flex={1} bg="white">
               <Image

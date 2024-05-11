@@ -27,19 +27,11 @@ export default function About() {
           boxShadow={"2xl"}
           padding={4}
         >
-          <Stack
-            flex={1}
-            flexDirection="column"
-            // justifyContent="center"
-            // alignItems="center"
-            p={1}
-            pt={2}
-          >
+          <Stack flex={1} flexDirection="column" p={1} pt={2}>
             <Heading fontSize={"5xl"} fontFamily={"body"} m="20px">
               Welcome To LENS
             </Heading>
             <Text
-              //   textAlign={'center'}
               m="20px"
               w="70%"
               color={useColorModeValue("gray.700", "gray.400")}

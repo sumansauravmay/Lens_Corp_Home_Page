@@ -13,14 +13,12 @@ const Testimonial = ({ children }) => {
 };
 
 const Testimonial2 = ({ children }) => {
-    return <Box
-    >{children}</Box>;
-  };
+  return <Box>{children}</Box>;
+};
 
 const TestimonialContent = ({ children }) => {
   return (
-    <Stack p={8} rounded={"xl"} align={"center"} pos={"relative"}
-    >
+    <Stack p={8} rounded={"xl"} align={"center"} pos={"relative"}>
       {children}
     </Stack>
   );
@@ -28,14 +26,15 @@ const TestimonialContent = ({ children }) => {
 
 const TestimonialContent2 = ({ children }) => {
   return (
-    <Stack p={8} rounded={"xl"}
-    // border="1px solid red"
-    width={900}
-    height={300}
-    bg="white"
-    ml={-200}
-    _hover={{
-        bg: "#FCE5E0"
+    <Stack
+      p={8}
+      rounded={"xl"}
+      width={900}
+      height={300}
+      bg="white"
+      ml={-200}
+      _hover={{
+        bg: "#FCE5E0",
       }}
     >
       {children}
@@ -45,32 +44,32 @@ const TestimonialContent2 = ({ children }) => {
 
 const TestimonialHeading = ({ children }) => {
   return (
-    <Heading as={"h3"} fontSize={{lg:"23.24px", md:"20px", sm:"16px"}}>
+    <Heading as={"h3"} fontSize={{ lg: "23.24px", md: "20px", sm: "16px" }}>
       {children}
     </Heading>
   );
 };
 
-
 const TestimonialHeading2 = ({ children }) => {
-    return (
-      <Heading as={"h5"} fontSize={{lg:"23.24px", md:"20px", sm:"16px"}} ml={-100}>
-        {children}
-      </Heading>
-    );
-  };
-
-
+  return (
+    <Heading
+      as={"h5"}
+      fontSize={{ lg: "23.24px", md: "20px", sm: "16px" }}
+      ml={-100}
+    >
+      {children}
+    </Heading>
+  );
+};
 
 const TestimonialText = ({ children }) => {
   return (
     <Text
       textAlign={"center"}
       color={useColorModeValue("#8A8A8A")}
-      fontSize={{lg:"18px", md:"15px", sm:"12px"}}
-      
-      height={{lg:"250px", md:"250px", sm:"280px"}}
-      width={{lg:"350px", md:"250px", sm:"250px"}}
+      fontSize={{ lg: "18px", md: "15px", sm: "12px" }}
+      height={{ lg: "250px", md: "250px", sm: "280px" }}
+      width={{ lg: "350px", md: "250px", sm: "250px" }}
       mt="50px"
     >
       {children}
@@ -79,27 +78,25 @@ const TestimonialText = ({ children }) => {
 };
 
 const TestimonialText2 = ({ children }) => {
-    return (
-      <Text
-        textAlign={"initial"}
-        color={useColorModeValue("#8A8A8A")}
-        fontSize={"18px"}
-        height={"150px"}
-        width={"650px"}
-        borderRadius={10}
-        bg={useColorModeValue("#FFECEB")}
-        mt="20px"
-        ml={-100}
-        _hover={{
-            bg: "#FFF5F5"
-          }}
-      >
-        {children}
-      </Text>
-    );
-  };
-
-
+  return (
+    <Text
+      textAlign={"initial"}
+      color={useColorModeValue("#8A8A8A")}
+      fontSize={"18px"}
+      height={"150px"}
+      width={"650px"}
+      borderRadius={10}
+      bg={useColorModeValue("#FFECEB")}
+      mt="20px"
+      ml={-100}
+      _hover={{
+        bg: "#FFF5F5",
+      }}
+    >
+      {children}
+    </Text>
+  );
+};
 
 export default function Blogs() {
   return (
@@ -152,7 +149,7 @@ export default function Blogs() {
                 <Container
                   bg={useColorModeValue("white")}
                   _hover={{
-                    bg: "#D2EFF7"
+                    bg: "#D2EFF7",
                   }}
                 >
                   <TestimonialHeading>
@@ -179,20 +176,17 @@ export default function Blogs() {
             </Testimonial>
           </Stack>
 
-    <Container
-     width={"850px"}
-    >
-
+          <Container width={"850px"}>
             <Testimonial2>
               <TestimonialContent2>
                 <Container
-                //   bg={useColorModeValue("white")}
+                  //   bg={useColorModeValue("white")}
                   width={"850px"}
-                
                 >
                   <TestimonialHeading2>
                     <Text class="text-black mt-2 absolue left-2">
-Unmasking the Misconceptions of Artificial Intelligence in the Workplace
+                      Unmasking the Misconceptions of Artificial Intelligence in
+                      the Workplace
                     </Text>
                   </TestimonialHeading2>
                   <TestimonialText2>
@@ -204,8 +198,7 @@ Unmasking the Misconceptions of Artificial Intelligence in the Workplace
                 </Container>
               </TestimonialContent2>
             </Testimonial2>
-    </Container>
-        
+          </Container>
         </Container>
       </Box>
     </div>

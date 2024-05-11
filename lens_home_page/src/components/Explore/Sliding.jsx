@@ -45,14 +45,8 @@ function Sliding() {
       <div style={{ marginTop: "80px" }}>
         <Slider {...settings}>
           {data.map((item) => (
-            <Container
-            justifyContent={'center'}
-             key={item.id}>
-              <img
-                style={{ width: "20%"}}
-                src={item.image}
-                alt="offers"
-              />
+            <Container justifyContent={"center"} key={item.id}>
+              <img style={{ width: "20%" }} src={item.image} alt="offers" />
             </Container>
           ))}
         </Slider>
