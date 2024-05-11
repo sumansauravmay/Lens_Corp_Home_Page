@@ -2,6 +2,7 @@
 // import './App.css';
 import About from './components/About';
 import Blogs from './components/Blogs';
+import EndPage from './components/EndPage';
 import Explore from './components/Explore/Explore';
 import Faq from './components/FAQ/Faq';
 import Footer from './components/Footer';
@@ -32,6 +33,7 @@ function App() {
     <br/>
     <br/>
     <Footer/>
+    <EndPage/>
     </div>
   );
 }
