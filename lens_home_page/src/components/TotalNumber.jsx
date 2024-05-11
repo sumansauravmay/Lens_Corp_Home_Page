@@ -14,7 +14,7 @@ function StatsCard(props) {
     const { title, stat } = props;
     return (
       <Stat
-        px={{ base: 4, md: 8 }}
+        px={{ base: 4, md: 8, sm: 2 }}
         py={'5'}
         shadow={'xl'}
         borderColor={useColorModeValue('gray.800', 'gray.500')}
@@ -27,7 +27,8 @@ function StatsCard(props) {
         </StatLabel>
         <StatNumber 
         color={"white"}
-        fontSize={'2xl'} fontWeight={'medium'}>
+        fontSize={{lg:'2xl', md:'xl', sm:'md'}} 
+        fontWeight={'medium'}>
           {stat}
         </StatNumber>
       </Stat>
@@ -40,7 +41,7 @@ function TotalNumber() {
     background={"#272E5C"}
     height={350}
     width={'full'}
-     mx={'auto'} pt={5} px={{ base: 2, sm: 12, md: 17 }}>
+     mx={'auto'} pt={5} px={{ base: 2, sm: 2, md: 17 }}>
     <chakra.h1
       textAlign={'center'}
       fontSize={'4xl'}
@@ -49,7 +50,7 @@ function TotalNumber() {
       fontWeight={'bold'}>
      By the numbers
     </chakra.h1>
-    <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
+    <SimpleGrid columns={{ base: 1, md: 2, lg: 3, sm:1 }} spacing={{ base: 5, lg: 8 }}>
       <StatsCard title={'15+'} stat={'Solutions for Global crises'} />
       <StatsCard title={'10+'} stat={'University Collaborations'} />
       <StatsCard title={'25+'} stat={'Employees Worldwide'} />

@@ -31,6 +31,7 @@ const TestimonialContent = ({ children }) => {
 const TestimonialHeading = ({ children }) => {
   return (
     <Heading as={"h3"} fontSize={"xl"}
+    mt="50px"
     >
       {children}
     </Heading>
@@ -43,8 +44,8 @@ const TestimonialText = ({ children }) => {
       textAlign={"center"}
       color={useColorModeValue("#8A8A8A")}
       fontSize={"18px"}
-      height={"250px"}
-      width={"350px"}
+      height={{lg:"250px"}}
+      width={{lg:"350px", md:"300px", sm:"300px", base:"250px"}}
       mt="50px"
     >
       {children}
@@ -129,7 +130,7 @@ _hover={{
           </Stack>
 
           <Stack
-            direction={{ base: "column", md: "row" }}
+            direction={{ base: "column", md: "row", sm:"column" }}
             spacing={{ base: 10, md: 4, lg: 10 }}
             justifyContent={"center"}
           >

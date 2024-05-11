@@ -18,6 +18,8 @@ function App() {
     <Navbar/>
     <Intro/>
     <About/>
+    <br/>
+    <br/>
     <Services/>
     <Whylens/>
     <WhyLens2/>
