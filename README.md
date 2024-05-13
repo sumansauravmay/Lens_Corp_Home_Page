@@ -1,7 +1,5 @@
 # Lens_Corp_Home_Page
 
-<<<<<<< HEAD
-=======
 <h3 align="center">It's a Lens Corporation Home Page</h3>
 
 <br/>
