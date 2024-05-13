@@ -103,9 +103,9 @@ Here users can know about the vison of Lens Corporation.
 
 ### Video Link -
 
-<h3 align="center"><a href="https://drive.google.com/file/d/1gtQpn7g0jrwRM2pUhE33jgEwEw-BALYF/view?usp=sharing"><strong>Video Link»</strong></a></h3>
+<h3 align="center"><a href="https://drive.google.com/file/d/1scC46urTMIWS9cvQiCqltyjYwtV_TMCa/view?usp=sharing"><strong>Video Link»</strong></a></h3>
 
-(https://drive.google.com/file/d/1gtQpn7g0jrwRM2pUhE33jgEwEw-BALYF/view?usp=sharing)
+(https://drive.google.com/file/d/1scC46urTMIWS9cvQiCqltyjYwtV_TMCa/view?usp=sharing)
 
 ## Run Locally
 
@@ -146,4 +146,3 @@ Install dependencies for lens_home_page
 ## Show your support
 
 Give a ⭐️ if you like this project!
->>>>>>> f47fa316039d5076d00be129097c5d769c715787
