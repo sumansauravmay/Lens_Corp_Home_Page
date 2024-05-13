@@ -8,14 +8,16 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
+import "../App.css";
 
 export default function About() {
   return (
-    <>
+    <div>
       <h1 class="flex justify-center mt-20 mb-10 underline decoration-blue-400 text-7xl">
         About Us
       </h1>
-      <Center py={6}>
+      <Center py={6}
+      >
         <Stack
           borderWidth="1px"
           borderRadius="lg"
@@ -86,6 +88,6 @@ export default function About() {
           </Flex>
         </Stack>
       </Center>
-    </>
+    </div>
   );
 }

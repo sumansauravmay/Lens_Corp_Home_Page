@@ -6,7 +6,6 @@ import EndPage from './components/EndPage';
 import Explore from './components/Explore/Explore';
 import Faq from './components/FAQ/Faq';
 import Footer from './components/Footer';
-import Intro from './components/Landing/Intro';
 import Landing from './components/Landing/Landing';
 import WorldMap from './components/Map/WorldMap';
 import Navbar from './components/Navbar';
@@ -16,29 +15,32 @@ import Vision from './components/Vision/Vision';
 import WhyLens2 from './components/WhyLens2';
 import Whylens from './components/whylens';
 
+
 function App() {
   return (
     <div>
-    <Navbar/>
-    {/* <Intro/> */}
-    <Landing/>
-    <About/>
-    <br/>
-    <br/>
-    <Services/>
-    <Whylens/>
-    <WhyLens2/>
-    <Vision/>
-    <Blogs/>
-    <Explore/>
-    <TotalNumber/>
-    <Faq/>
-    <WorldMap/>
-    <br/>
-    <br/>
-    <Footer/>
-    <EndPage/>
+
+      <Navbar/>
+      <Landing/>
+      <About/>
+      <br/>
+      <br/>
+      <Services/>
+      <Whylens/>
+      <WhyLens2/>
+      <Vision/>
+      <Blogs/>
+      <Explore/>
+      {/* <Sliding/> */}
+      <TotalNumber/>
+      <Faq/>
+      <WorldMap/>
+      <br/>
+      <br/>
+      <Footer/>
+      <EndPage/>
     </div>
+    
   );
 }
 

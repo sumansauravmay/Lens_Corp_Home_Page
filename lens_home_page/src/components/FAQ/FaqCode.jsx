@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Flex } from "@chakra-ui/react";
+import "../../App.css";
 
 const FaqCode = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);

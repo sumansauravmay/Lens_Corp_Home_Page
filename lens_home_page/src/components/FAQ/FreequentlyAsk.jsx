@@ -1,9 +1,11 @@
 import React from "react";
 import { Text } from "@chakra-ui/react";
+import "../../App.css";
 
 const FreequentlyAsk = () => {
   return (
-    <div>
+    <div style={{marginTop:"50px"}}
+    >
       <h1 class="flex justify-center mt-20 mb-10 underline decoration-blue-400 text-3xl">
         GET TO KNOW US
       </h1>

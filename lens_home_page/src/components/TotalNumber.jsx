@@ -8,6 +8,7 @@ import {
   StatNumber,
   useColorModeValue,
 } from "@chakra-ui/react";
+import "../App.css";
 
 function StatsCard(props) {
   const { title, stat } = props;

@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Container } from "@chakra-ui/react";
+import "../../App.css";
 
 const data = [
   {
@@ -42,7 +43,7 @@ function Sliding() {
 
   return (
     <div>
-      <div style={{ marginTop: "80px" }}>
+      <div style={{ marginTop: "80px", width:"96%"}}>
         <Slider {...settings}>
           {data.map((item) => (
             <Container justifyContent={"center"} key={item.id}>

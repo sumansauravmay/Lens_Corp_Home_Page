@@ -10,6 +10,7 @@ import {
   useColorModeValue,
   Avatar,
 } from "@chakra-ui/react";
+import "../App.css";
 import { FaInstagram, FaFacebook, FaLinkedin, FaDiscord } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 

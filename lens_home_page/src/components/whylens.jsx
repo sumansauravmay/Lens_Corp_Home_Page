@@ -8,6 +8,7 @@ import {
   Stack,
   Flex,
 } from "@chakra-ui/react";
+import "../App.css";
 import { FaCheck } from "react-icons/fa";
 
 const options = [
@@ -82,7 +83,7 @@ const Whylens = () => {
             <h1 class="flex justify-center mt-20 mb-10 text-5xl text-black">
               AI-driven solutions backed by science
             </h1>
-            <p class="text-gray-600">
+            <p class="text-gray-600 text-[20px] font-sans">
               Every piece of AI technology shipped from LENS is thoroughly
               benchmarked via rigorous evaluations. With a global network of
               experts and academicians, we guarantee the most accurate and

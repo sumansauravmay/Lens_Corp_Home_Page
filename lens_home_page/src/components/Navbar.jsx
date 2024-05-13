@@ -7,13 +7,15 @@ import {
   Stack,
   useColorMode,
 } from "@chakra-ui/react";
+import "../App.css";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
     <>
-      <Box bg={useColorModeValue("#FFFFFF")} px={4}>
+      <Box bg={useColorModeValue("#FFFFFF")} px={4}
+      >
         <Flex h={16} alignItems={"center"} justifyContent={"space-around"}>
           <Stack>
             <Avatar

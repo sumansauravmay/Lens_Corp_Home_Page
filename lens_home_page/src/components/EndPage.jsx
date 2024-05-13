@@ -5,6 +5,7 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
+import "../App.css";
 
 export default function EndPage() {
   return (

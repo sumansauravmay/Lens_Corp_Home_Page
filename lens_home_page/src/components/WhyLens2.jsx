@@ -9,6 +9,7 @@ import {
   useColorModeValue,
   Avatar,
 } from "@chakra-ui/react";
+import "../App.css";
 
 const Testimonial = ({ children }) => {
   return <Box>{children}</Box>;
@@ -35,11 +36,11 @@ const TestimonialText = ({ children }) => {
     <Text
       textAlign={"center"}
       color={useColorModeValue("#8A8A8A")}
-      fontSize={"18px"}
+      fontSize="18px"
+      fontFamily="Poppins, sans-serif"
       height={"250px"}
-      // width={"280px"}
       mt="50px"
-      width={{ lg: "280px", md: "250px", sm: "200px", base: "200px" }}
+      width={{ lg: "260px", md: "250px", sm: "200px", base: "200px" }}
     >
       {children}
     </Text>

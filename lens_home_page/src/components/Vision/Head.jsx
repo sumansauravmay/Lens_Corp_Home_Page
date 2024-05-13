@@ -1,5 +1,6 @@
 import React from "react";
 import "./vision.css";
+import "../../App.css";
 import { Stack, Text } from "@chakra-ui/react";
 
 const Head = () => {

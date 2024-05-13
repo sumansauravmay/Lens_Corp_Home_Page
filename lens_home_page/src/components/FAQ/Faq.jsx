@@ -1,6 +1,7 @@
 import React from "react";
 import FreequentlyAsk from "./FreequentlyAsk";
 import FaqCode from "./FaqCode";
+import "../../App.css";
 
 const Faq = () => {
   return (

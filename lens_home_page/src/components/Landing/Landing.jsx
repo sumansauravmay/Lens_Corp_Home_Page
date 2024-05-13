@@ -2,8 +2,6 @@ import {
   Container,
   Stack,
   Flex,
-  Box,
-  Heading,
   Text,
   Button,
 } from "@chakra-ui/react";
@@ -11,7 +9,9 @@ import "../../App.css";
 
 export default function Landing() {
   return (
-    <Container className="intro" maxW={"full"}>
+    <Container className="intro" maxW={"full"}
+    height={800}
+    >
       <Container maxW={"7xl"}>
         <Stack
           align={"center"}
@@ -20,35 +20,34 @@ export default function Landing() {
           direction={{ base: "column", md: "row" }}
         >
           <Stack flex={1} spacing={{ base: 5, md: 10 }}>
-            <Heading
+            <Text
               lineHeight={1.1}
-              fontWeight={600}
-              fontSize={{ base: "3xl", sm: "4xl", lg: "6xl" }}
+              // fontWeight={600}
+              // fontSize={{ base: "3xl", sm: "4xl", lg: "6xl" }}
+              marginLeft={{lg:"140px", md:"100px", sm:"50px", base:"50px"}}
             >
               <Text
-                as={"span"}
+                // as={"span"}
                 position={"relative"}
-                _after={{
-                  content: "''",
-                  width: "full",
-                  height: "30%",
-                  position: "absolute",
-                  bottom: 1,
-                  left: 0,
-                  bg: "#BDBDBD",
-                  zIndex: -1,
-                }}
+                fontSize="64px"
+                fontFamily="Raleway, sans-serif"
               >
                 We are at the forefront of AI
               </Text>
-            </Heading>
-            <Flex>
-              <Text color={"#000000"}>
+            </Text>
+
+            <Stack>
+              <Text color={"#000000"}
+              width={"70%"}
+              fontSize="19.2px"
+              marginLeft={{lg:"140px", md:"100px", sm:"50px", base:"50px"}}
+              fontFamily="Poppins, sans-serif"
+              >
                 From Conserving Wildlife to Automatically Generating
-                Caricatures–
+                Caricatures– <span style={{fontWeight:"bold"}}>We Do It All</span>
               </Text>
-              <Text fontWeight={700}>We Do It All</Text>
-            </Flex>
+              {/* <Text fontWeight={700}>We Do It All</Text> */}
+            </Stack>
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: "column", sm: "row" }}
@@ -60,6 +59,7 @@ export default function Landing() {
                 px={6}
                 colorScheme={"red"}
                 bg={"#000000"}
+                marginLeft={{lg:"140px", md:"100px", sm:"50px", base:"50px"}}
                 _hover={{ bg: "white", color: "#000000", padding: "26px" }}
               >
                 Get started

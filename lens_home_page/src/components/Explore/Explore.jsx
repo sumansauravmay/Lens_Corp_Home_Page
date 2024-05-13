@@ -1,6 +1,7 @@
 import React from "react";
 import Sliding from "./Sliding";
 import { Box, Button, Text } from "@chakra-ui/react";
+import "../../App.css";
 
 const Explore = () => {
   return (
@@ -22,7 +23,8 @@ const Explore = () => {
       <Text
         mt={10}
         fontSize={{ lg: 32, md: 24, sm: 20, base: 16 }}
-        ml={{ lg: 550, md: 250, sm: 130, base: 100 }}
+        // ml={{ lg: 550, md: 250, sm: 130, base: 100 }}
+        textAlign={'center'}
       >
         We Work With Amazing Clients
       </Text>

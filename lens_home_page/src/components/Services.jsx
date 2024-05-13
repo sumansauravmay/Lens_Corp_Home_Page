@@ -47,13 +47,14 @@ const TestimonialText = ({ children }) => {
 export default function Services() {
   return (
     <div class="intro">
-      <h1 class="flex justify-center mt-20 mb-10 underline decoration-blue-400 text-7xl">
+      <text class="flex justify-center mt-20 mb-10 underline decoration-blue-400 text-3xl font-sans"
+      >
         SERVICES
-      </h1>
+      </text>
       <Box>
         <Container maxW={"7xl"} py={16} as={Stack} spacing={12}>
           <Stack spacing={0} align={"center"}>
-            <Text fontSize={{ base: 20, md: 32, lg: 52 }}>
+            <Text fontSize={{ base: 20, md: 32, lg: 58 }}>
               We provide Artificial Intelligence Services
             </Text>
           </Stack>
